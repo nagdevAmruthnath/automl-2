@@ -1,4 +1,4 @@
-Package: automl
+Package: automl-2
 Type: Package
 Title: Train hundreds of machine learning models with a few lines of code. 
 Version: 0.0.9000
