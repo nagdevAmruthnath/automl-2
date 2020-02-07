@@ -48,7 +48,7 @@
 #'@export
 
 ml_list=function(data,target,params,summaryFunction=twoClassSummary,save_model=NULL){
-  automl::timeRecordB()
+  automl2::timeRecordB()
   # record the current packages loaded in R
   init_state=base::search()
   require(magrittr)

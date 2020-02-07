@@ -224,7 +224,7 @@ ml_tune=function(data,target,sampling=NULL,metric="Accuracy",search = "random",k
   # end of the if for changing sampling method.
 
   # record the time
-  automl::timeRecordB()
+  automl2::timeRecordB()
   # change the trainControl for different metric.
   switch(metric,
          Accuracy={
